@@ -8,6 +8,20 @@ html = r.text
 
 class filmaffinity:
 
+    resultado = {
+        "Título original": self.titulo_original(),
+        "Año": self.anio_original(),
+        "Duración": self.duracion(),
+        "País": self.pais(),
+        "Dirección": self.direccion(),
+        "Guión": self.guion(),
+        "Música": self.musica(),
+        "Fotografía": self.dir_fotografia(),
+        "Reparto": self.cast(),
+        "Productora": self.produccion(),
+        "Género": self.tipo(),
+        "Sinopsis": self.argumento()}
+
     url = ""
     html = ""
 
