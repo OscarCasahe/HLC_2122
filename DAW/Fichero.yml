@@ -1,0 +1,8 @@
+version: ‘3’
+services:
+#Contenedores
+volumes:
+#Volúmenes
+networks:
+#Redes
+
